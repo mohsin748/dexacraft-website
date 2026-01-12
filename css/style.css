@@ -1,3 +1,20 @@
+/* Make body take full height and use flexbox */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Wrap your main content to grow */
+.content-wrapper {
+    flex: 1; /* fills available vertical space */
+}
+
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
